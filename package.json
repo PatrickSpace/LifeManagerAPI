@@ -1,0 +1,25 @@
+{
+  "name": "wppmsg_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}

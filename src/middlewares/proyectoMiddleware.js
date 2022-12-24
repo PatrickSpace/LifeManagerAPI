@@ -63,7 +63,7 @@ module.exports = {
               errmsg = "Este código ya esta en uso";
               break;
             case 3:
-              errmsg = "Este nombre del proyecto ya esta en uso";
+              errmsg = "Este nombre del proyecto ya esta en uso jeje";
               break;
           }
           return res.status(400).json({ msg: [errmsg] });
